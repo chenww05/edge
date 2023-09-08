@@ -1,6 +1,6 @@
 package halo
 
-import "github.com/turingvideo/minibox/cloud"
+import "github.com/example/minibox/cloud"
 
 const (
 	Aggression      = "Aggression"

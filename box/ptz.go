@@ -3,10 +3,10 @@ package box
 import (
 	"encoding/json"
 
-	univiewapi "github.com/turingvideo/goshawk/uniview"
-	"github.com/turingvideo/minibox/camera/uniview"
-	"github.com/turingvideo/minibox/utils"
-	"github.com/turingvideo/turing-common/websocket"
+	univiewapi "github.com/example/goshawk/uniview"
+	"github.com/example/minibox/camera/uniview"
+	"github.com/example/minibox/utils"
+	"github.com/example/turing-common/websocket"
 )
 
 var ptzCmdMap = map[string]int{

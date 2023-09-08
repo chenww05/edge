@@ -3,10 +3,10 @@ package sunell
 import (
 	"time"
 
-	"github.com/turingvideo/minibox/apis/structs"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/printer"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/apis/structs"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/printer"
+	"github.com/example/minibox/utils"
 )
 
 const (

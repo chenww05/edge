@@ -6,10 +6,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/turingvideo/streamer"
-	"github.com/turingvideo/turing-common/model"
+	"github.com/example/streamer"
+	"github.com/example/turing-common/model"
 
-	"github.com/turingvideo/minibox/db"
+	"github.com/example/minibox/db"
 )
 
 func (a *ArchiveTaskRunner) processRecoveryTask(task *model.CloudStorageSetting) {

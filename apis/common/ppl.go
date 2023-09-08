@@ -2,8 +2,8 @@ package common
 
 import (
 	"github.com/rs/zerolog"
-	"github.com/turingvideo/minibox/box"
-	"github.com/turingvideo/minibox/db"
+	"github.com/example/minibox/box"
+	"github.com/example/minibox/db"
 )
 
 type PplBaseAPI struct {

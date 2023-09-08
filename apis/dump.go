@@ -13,11 +13,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/olekukonko/tablewriter"
 	"github.com/rs/zerolog"
-	"github.com/turingvideo/minibox/box"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/onvif"
-	http2 "github.com/turingvideo/turing-common/http"
-	"github.com/turingvideo/turing-common/log"
+	"github.com/example/minibox/box"
+	"github.com/example/minibox/cloud"
+	"github.com/example/onvif"
+	http2 "github.com/example/turing-common/http"
+	"github.com/example/turing-common/log"
 )
 
 const DayFormat = "2006-01-02"

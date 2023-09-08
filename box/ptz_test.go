@@ -7,12 +7,12 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	univiewapi "github.com/turingvideo/goshawk/uniview"
-	"github.com/turingvideo/minibox/camera"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/discover"
-	"github.com/turingvideo/minibox/mock"
-	"github.com/turingvideo/minibox/utils"
+	univiewapi "github.com/example/goshawk/uniview"
+	"github.com/example/minibox/camera"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/discover"
+	"github.com/example/minibox/mock"
+	"github.com/example/minibox/utils"
 )
 
 func TestGetPtzPresets(t *testing.T) {

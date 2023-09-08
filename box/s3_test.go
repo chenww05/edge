@@ -9,9 +9,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/mock"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/mock"
 )
 
 func S3StubServer() *httptest.Server {

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/turingvideo/minibox/camera/thermal_1"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/camera/thermal_1"
+	"github.com/example/minibox/utils"
 )
 
 func (h *handler) downloadS3(url string) (string, string) {

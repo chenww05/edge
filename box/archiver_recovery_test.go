@@ -7,9 +7,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/mock"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/mock"
 )
 
 func createTestTsData(t *testing.T, miss bool) []db.ArchiveVideo {

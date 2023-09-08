@@ -1,8 +1,8 @@
 package box
 
 import (
-	"github.com/turingvideo/minibox/camera"
-	"github.com/turingvideo/minibox/camera/base"
+	"github.com/example/minibox/camera"
+	"github.com/example/minibox/camera/base"
 )
 
 func (b *baseBox) GetCamera(cameraID int) (base.Camera, error) {

@@ -14,12 +14,12 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/turingvideo/minibox/apis/common"
-	t1 "github.com/turingvideo/minibox/apis/thermal_1"
-	camera2 "github.com/turingvideo/minibox/camera"
-	"github.com/turingvideo/minibox/camera/thermal_1"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/mock"
+	"github.com/example/minibox/apis/common"
+	t1 "github.com/example/minibox/apis/thermal_1"
+	camera2 "github.com/example/minibox/camera"
+	"github.com/example/minibox/camera/thermal_1"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/mock"
 )
 
 func TestRFIDForTimeKeeping(t *testing.T) {

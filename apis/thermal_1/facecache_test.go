@@ -6,9 +6,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/turingvideo/minibox/apis/common"
-	"github.com/turingvideo/minibox/camera/thermal_1"
-	"github.com/turingvideo/minibox/mock"
+	"github.com/example/minibox/apis/common"
+	"github.com/example/minibox/camera/thermal_1"
+	"github.com/example/minibox/mock"
 )
 
 func TestGetAndClean(t *testing.T) {

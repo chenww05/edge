@@ -13,18 +13,18 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 
-	univiewapi "github.com/turingvideo/goshawk/uniview"
-	"github.com/turingvideo/onvif"
-	"github.com/turingvideo/turing-common/websocket"
+	univiewapi "github.com/example/goshawk/uniview"
+	"github.com/example/onvif"
+	"github.com/example/turing-common/websocket"
 
-	"github.com/turingvideo/minibox/camera"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/discover"
-	"github.com/turingvideo/minibox/discover/arp"
-	"github.com/turingvideo/minibox/mock"
-	"github.com/turingvideo/minibox/scheduler"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/camera"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/discover"
+	"github.com/example/minibox/discover/arp"
+	"github.com/example/minibox/mock"
+	"github.com/example/minibox/scheduler"
+	"github.com/example/minibox/utils"
 )
 
 type message struct {
@@ -401,7 +401,7 @@ func TestStartMultiStream(t *testing.T) {
 					"param": []map[string]interface{}{
 						{"camera_id": 1, "token": map[string]interface{}{
 							"uri":      "rtsps://localhost:8554/orgs/77/users/208/cameras/373",
-							"base_uri": "rtsps://dev-stream.turingvideo.cn:8554",
+							"base_uri": "rtsps://dev-stream.example.cn:8554",
 						}},
 					},
 				},
@@ -435,14 +435,14 @@ func TestStartMultiStream(t *testing.T) {
 		{
 			"right params",
 			map[string]interface{}{
-				"id":  "turingvideo",
+				"id":  "example",
 				"act": StartMultiStream,
 				"arg": map[string]interface{}{
 					"camera_id": 1,
 					"param": []map[string]interface{}{
 						{"camera_id": 1, "token": map[string]interface{}{
 							"uri":      "rtsps://localhost:8554/orgs/77/users/208/cameras/373",
-							"base_uri": "rtsps://dev-stream.turingvideo.cn:8554",
+							"base_uri": "rtsps://dev-stream.example.cn:8554",
 						}},
 					},
 				},
@@ -452,7 +452,7 @@ func TestStartMultiStream(t *testing.T) {
 		{
 			"right params",
 			map[string]interface{}{
-				"id":  "turingvideo",
+				"id":  "example",
 				"act": StartMultiStream,
 				"arg": map[string]interface{}{
 					"camera_id": 1,
@@ -460,7 +460,7 @@ func TestStartMultiStream(t *testing.T) {
 						{"camera_id": 1,
 							"token": map[string]interface{}{
 								"uri":      "rtsps://localhost:8554/orgs/77/users/208/cameras/373",
-								"base_uri": "rtsps://dev-stream.turingvideo.cn:8554",
+								"base_uri": "rtsps://dev-stream.example.cn:8554",
 							},
 							"stream_id": "stream_id"},
 					},
@@ -615,7 +615,7 @@ func TestStartStream(t *testing.T) {
 					"camera_id": 1,
 					"token": map[string]interface{}{
 						"uri":      "rtsps://localhost:8554/orgs/77/users/208/cameras/373",
-						"base_uri": "rtsps://dev-stream.turingvideo.cn:8554",
+						"base_uri": "rtsps://dev-stream.example.cn:8554",
 					},
 				},
 			},
@@ -648,7 +648,7 @@ func TestStartStream(t *testing.T) {
 		{
 			"right params",
 			map[string]interface{}{
-				"id":  "turingvideo",
+				"id":  "example",
 				"act": StartStream,
 				"arg": map[string]interface{}{
 					"camera_id": 1,
@@ -663,7 +663,7 @@ func TestStartStream(t *testing.T) {
 		{
 			"right params",
 			map[string]interface{}{
-				"id":  "turingvideo",
+				"id":  "example",
 				"act": StartStream,
 				"arg": map[string]interface{}{
 					"camera_id": 1,

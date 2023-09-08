@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/turingvideo/minibox/box"
-	"github.com/turingvideo/minibox/camera/base"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/box"
+	"github.com/example/minibox/camera/base"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/utils"
 )
 
 func (g *GuardianAPI) getSnapshotFromEvent(event Event) string {

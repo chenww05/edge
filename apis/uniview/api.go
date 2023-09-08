@@ -10,12 +10,12 @@ import (
 	"github.com/codegangsta/inject"
 	"github.com/gin-gonic/gin"
 	"github.com/rs/zerolog"
-	"github.com/turingvideo/minibox/box"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/utils"
-	http2 "github.com/turingvideo/turing-common/http"
-	"github.com/turingvideo/turing-common/log"
+	"github.com/example/minibox/box"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/utils"
+	http2 "github.com/example/turing-common/http"
+	"github.com/example/turing-common/log"
 )
 
 type UniviewAPI struct {

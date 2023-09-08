@@ -5,9 +5,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/mock"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/mock"
 )
 
 func Test_NewArchiveTask(t *testing.T) {

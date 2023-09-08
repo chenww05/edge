@@ -9,11 +9,11 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/turingvideo/minibox/camera/base"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/scheduler"
-	"github.com/turingvideo/minibox/utils"
-	"github.com/turingvideo/turing-common/log"
+	"github.com/example/minibox/camera/base"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/scheduler"
+	"github.com/example/minibox/utils"
+	"github.com/example/turing-common/log"
 )
 
 const (

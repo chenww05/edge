@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-playground/validator/v10"
 	"github.com/mitchellh/mapstructure"
-	"github.com/turingvideo/turing-common/websocket"
+	"github.com/example/turing-common/websocket"
 
-	"github.com/turingvideo/minibox/stream"
+	"github.com/example/minibox/stream"
 )
 
 func (h *handler) startGeneralBackwardAudio(msg websocket.Message) ([]byte, error) {

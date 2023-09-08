@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-playground/validator/v10"
 
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/utils"
 )
 
 type srsApiReq struct {

@@ -3,7 +3,7 @@ package common_test
 import (
 	"testing"
 
-	"github.com/turingvideo/minibox/apis/common"
+	"github.com/example/minibox/apis/common"
 )
 
 func TestIsDataURI(t *testing.T) {

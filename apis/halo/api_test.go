@@ -12,9 +12,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/mock"
-	"github.com/turingvideo/turing-common/log"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/mock"
+	"github.com/example/turing-common/log"
 )
 
 func getMockHaloApi(box *mock.MockBox, db *mock.MockDBClient) *HaloAPI {

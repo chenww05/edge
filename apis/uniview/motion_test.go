@@ -7,17 +7,17 @@ import (
 	"path"
 	"testing"
 
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/turing-common/model"
+	"github.com/example/minibox/db"
+	"github.com/example/turing-common/model"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	box2 "github.com/turingvideo/minibox/box"
-	"github.com/turingvideo/minibox/camera/uniview"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/mock"
-	"github.com/turingvideo/minibox/utils"
+	box2 "github.com/example/minibox/box"
+	"github.com/example/minibox/camera/uniview"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/mock"
+	"github.com/example/minibox/utils"
 )
 
 func TestMotionProcessIsMotionStart(t *testing.T) {

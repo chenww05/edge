@@ -7,13 +7,13 @@ import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
-	http2 "github.com/turingvideo/turing-common/http"
+	http2 "github.com/example/turing-common/http"
 
-	"github.com/turingvideo/minibox/apis/guardian"
-	"github.com/turingvideo/minibox/apis/halo"
-	"github.com/turingvideo/minibox/apis/metrics"
-	"github.com/turingvideo/minibox/apis/uniview"
-	"github.com/turingvideo/minibox/configs"
+	"github.com/example/minibox/apis/guardian"
+	"github.com/example/minibox/apis/halo"
+	"github.com/example/minibox/apis/metrics"
+	"github.com/example/minibox/apis/uniview"
+	"github.com/example/minibox/configs"
 )
 
 func newEngine(injector inject.Injector) (*gin.Engine, error) {

@@ -9,11 +9,11 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/turingvideo/minibox/camera"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/mock"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/camera"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/mock"
+	"github.com/example/minibox/utils"
 )
 
 type mockCamera struct {

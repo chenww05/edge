@@ -9,7 +9,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/utils"
 )
 
 const ObjectDetectRetryTimes = 3

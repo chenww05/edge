@@ -3,9 +3,9 @@ package uniview
 import (
 	"time"
 
-	"github.com/turingvideo/minibox/box"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/box"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/utils"
 )
 
 const (

@@ -12,17 +12,17 @@ import (
 	"strconv"
 	"time"
 
-	goshawk "github.com/turingvideo/goshawk/uniview"
-	"github.com/turingvideo/turing-common/model"
-	"github.com/turingvideo/turing-common/websocket"
+	goshawk "github.com/example/goshawk/uniview"
+	"github.com/example/turing-common/model"
+	"github.com/example/turing-common/websocket"
 
-	"github.com/turingvideo/minibox/apis/structs"
-	"github.com/turingvideo/minibox/camera/base"
-	"github.com/turingvideo/minibox/camera/uniview"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/apis/structs"
+	"github.com/example/minibox/camera/base"
+	"github.com/example/minibox/camera/uniview"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/utils"
 )
 
 const (

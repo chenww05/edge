@@ -8,14 +8,14 @@ import (
 	"time"
 
 	"github.com/rs/zerolog"
-	"github.com/turingvideo/minibox/apis/structs"
-	"github.com/turingvideo/minibox/box"
-	"github.com/turingvideo/minibox/camera/thermal_1"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/printer"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/apis/structs"
+	"github.com/example/minibox/box"
+	"github.com/example/minibox/camera/thermal_1"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/printer"
+	"github.com/example/minibox/utils"
 )
 
 type ThermalBaseAPI struct {

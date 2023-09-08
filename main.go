@@ -6,21 +6,21 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/turingvideo/turing-common/env"
-	"github.com/turingvideo/turing-common/log"
+	"github.com/example/turing-common/env"
+	"github.com/example/turing-common/log"
 
-	"github.com/turingvideo/minibox/apis"
-	"github.com/turingvideo/minibox/apis/ppl_2"
-	"github.com/turingvideo/minibox/box"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/discover"
-	"github.com/turingvideo/minibox/discover/arp"
-	"github.com/turingvideo/minibox/engine"
-	"github.com/turingvideo/minibox/monitoring"
-	"github.com/turingvideo/minibox/nvr/uniview"
-	pemUtil "github.com/turingvideo/minibox/pem"
-	"github.com/turingvideo/minibox/scheduler"
+	"github.com/example/minibox/apis"
+	"github.com/example/minibox/apis/ppl_2"
+	"github.com/example/minibox/box"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/discover"
+	"github.com/example/minibox/discover/arp"
+	"github.com/example/minibox/engine"
+	"github.com/example/minibox/monitoring"
+	"github.com/example/minibox/nvr/uniview"
+	pemUtil "github.com/example/minibox/pem"
+	"github.com/example/minibox/scheduler"
 )
 
 var logger zerolog.Logger

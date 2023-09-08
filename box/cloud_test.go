@@ -19,17 +19,17 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/turingvideo/goshawk/uniview"
-	"github.com/turingvideo/turing-common/model"
+	"github.com/example/goshawk/uniview"
+	"github.com/example/turing-common/model"
 
-	"github.com/turingvideo/minibox/apis/structs"
-	"github.com/turingvideo/minibox/camera/base"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/discover/arp"
-	"github.com/turingvideo/minibox/mock"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/apis/structs"
+	"github.com/example/minibox/camera/base"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/discover/arp"
+	"github.com/example/minibox/mock"
+	"github.com/example/minibox/utils"
 )
 
 const testPhoto = "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFKElEQVRYhcWX608UZxTG919o+qHfqk1ra0xjYlubtdQqDY0x6iK6ChZ0FYT1Urx010W8Fos2TdAKWLW0VqxJFWLrwmI1tlguiY1WoyVURS7LzLwzoxixKAsoMr9+WGdAd61gjUxykknmXJ73nPOc845NVVUkSUKWZXRdR9M0hBCoqoqqqsiybH0TQhAMBtE0DUVR0HUdVVUtGyEEkiShKArBYND6HgwGURTF8mf6VlUVmyzLCCGQZdkyHGjc2trKicpT5OzIJyNrHfGpS4hLWkBc0gLsDid2h5MPE+cTl7SAaa7FuNeuJ2dHAccrf0d5cDgTnKqqKIpiiSzL2ILBICeranA/cD5/hZfvD5UgSRKlZQEcqRlWoKHKzDQ3h372I0kSh46WsXC1jxmL0knzrMX/y4lwBo6drCQmITHCeNrCxdZ7TKKL+NwCkg9U4K6sJ/O8zupLHXhb7uFtucfqSx1kntdxV9aTfKCC+NwCYhJdln1C2tII/xPi51DiL8eW6s3G7nAy5dNNJBeXM2NTnqU0ybUE15EqvE138UnGkMTb1IPrSBWTXO7wIebMZ07BQRK/KeWD+enYHU6cGcuxzViUzuTU5Xhb7rGmORwoNXAGx+cFZDeGqLhl0NwN6l2oC0FxW/SAWZLBwRsGf9yBc50QaDf4TDHwNIRw5h9gxYXreBq7WVV3k6W1jeEDOj/G5s7awFTfFjxX7jB7+z5m7diH52oXuUofbfeI+vzZCVkDgucoBq09kXpdfVB03cDXauA+dYmEL/cyb38ZnoYQdoeTpGWrsJ2orOK9hCQyfq1jVd1NfMH7+Fr7ojoc+ATa+wE0dD9er6cPtqn9up7Gbpz5P2B3ODl8tAybqqqUlgWInbcAR85OPjkjs+eaEeEoFArhSklmzOujyM7y0dEbTnuhHqlbV/cXkyfGMG7sm5T7/dTcBp9ksKTqCh9lrmXirCSKD5cihMBmcjRz0xbsDidpx85ScSvS6d7du3npxRcsqa6q4gvVoKw9Unf2zHhL77WRL9PU2Wv1lt3hJHNjDpqmoes6NkVREEKQsDhMlZUXbxCI4rRo756HANTWVLPtMQCcCTMtvVGvjKA5dB+fZLDyYht2h5NZ6Uv7B5EJIHZuCnaHE29TD19HKUFXVxdpi1yMHTOazRvXc+tBCfKjlODv+nriYifz7lvjOFYRoLoDi5p2h5PYuSnW2LapqooQwuK+2SwtT2hC355i3pkynfHTEij6KfBYve4+2Cr6m9CMo+t6OAPmDngUQK4wuBaVhgaVZ8/x6sgRlowZ/QaXW5ojNDv7YO+1h+fFQACKooRLEA2ATzJYL4dr3NANyl24EIJjJcXU5nnZmjqbqRPeZvr749m5bB61eV7KK/zU3oYzd+Bou8FmJXJgmXHMDWszUxENwKOS3dRD1XYftXneqHL8qw1PHNFmHHOd28xVPBgAa1p6WVhUwobCXRzfv4vqH4uoOfQt/u8KWVe4G9d+/6ABWPcBcw4MBoBPMvA09bD8nEbbPx1wvxfu93JZvc6yswJPU8+gAVgl0DQNSZIGDcCU85JmAfjtqjxoOzOOEKJ/ED2uCf9L0quvkuI/TYr/NEtOB4cMQNM0NE0LZ0DX9SEDeFoZ2ISKooRZoKrqcwdgNaF5ax0OAEIIbJIkoWnacwdgXtWtZfS8AZi/A0OeA8+yBJqmhf8LnoaG/xeAJEn9k3A4WGCyz2YuheGYA0KIMIDhYIHVA+ZAGA4aSpI0tPvAs86ALMv8CysqfF+oqf78AAAAAElFTkSuQmCC"

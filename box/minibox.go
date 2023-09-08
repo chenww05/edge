@@ -15,21 +15,21 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/turingvideo/turing-common/env"
-	"github.com/turingvideo/turing-common/log"
-	"github.com/turingvideo/turing-common/websocket"
+	"github.com/example/turing-common/env"
+	"github.com/example/turing-common/log"
+	"github.com/example/turing-common/websocket"
 
-	"github.com/turingvideo/minibox/apis/structs"
-	"github.com/turingvideo/minibox/camera"
-	"github.com/turingvideo/minibox/camera/base"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/discover"
-	"github.com/turingvideo/minibox/discover/arp"
-	"github.com/turingvideo/minibox/nvr"
-	"github.com/turingvideo/minibox/printer"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/apis/structs"
+	"github.com/example/minibox/camera"
+	"github.com/example/minibox/camera/base"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/discover"
+	"github.com/example/minibox/discover/arp"
+	"github.com/example/minibox/nvr"
+	"github.com/example/minibox/printer"
+	"github.com/example/minibox/utils"
 )
 
 var ErrInit = errors.New("init error")

@@ -11,14 +11,14 @@ import (
 	"github.com/robfig/cron/v3"
 	"github.com/rs/zerolog"
 
-	"github.com/turingvideo/turing-common/log"
+	"github.com/example/turing-common/log"
 
-	"github.com/turingvideo/minibox/apis/structs"
-	"github.com/turingvideo/minibox/box"
-	"github.com/turingvideo/minibox/camera/ppl_2"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/apis/structs"
+	"github.com/example/minibox/box"
+	"github.com/example/minibox/camera/ppl_2"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/utils"
 )
 
 const (

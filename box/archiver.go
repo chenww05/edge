@@ -12,17 +12,17 @@ import (
 	"time"
 
 	"github.com/rs/zerolog"
-	"github.com/turingvideo/turing-common/log"
-	"github.com/turingvideo/turing-common/metrics"
-	"github.com/turingvideo/turing-common/model"
+	"github.com/example/turing-common/log"
+	"github.com/example/turing-common/metrics"
+	"github.com/example/turing-common/model"
 
-	"github.com/turingvideo/streamer"
+	"github.com/example/streamer"
 
-	"github.com/turingvideo/minibox/camera/base"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/camera/base"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/utils"
 )
 
 var (

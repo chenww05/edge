@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/turingvideo/minibox/cloud"
+	"github.com/example/minibox/cloud"
 )
 
 func (b *baseBox) getTokenFromCache(name string) *cloud.Token {

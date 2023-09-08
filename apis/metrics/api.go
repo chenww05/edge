@@ -5,8 +5,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/rs/zerolog"
-	http2 "github.com/turingvideo/turing-common/http"
-	"github.com/turingvideo/turing-common/log"
+	http2 "github.com/example/turing-common/http"
+	"github.com/example/turing-common/log"
 )
 
 type MetricsAPI struct {

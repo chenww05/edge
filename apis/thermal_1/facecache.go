@@ -6,13 +6,13 @@ import (
 	"time"
 
 	"github.com/jinzhu/copier"
-	"github.com/turingvideo/minibox/apis/common"
-	"github.com/turingvideo/minibox/apis/structs"
-	"github.com/turingvideo/minibox/camera/thermal_1"
-	"github.com/turingvideo/minibox/db"
-	"github.com/turingvideo/minibox/printer"
-	"github.com/turingvideo/minibox/rfid"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/apis/common"
+	"github.com/example/minibox/apis/structs"
+	"github.com/example/minibox/camera/thermal_1"
+	"github.com/example/minibox/db"
+	"github.com/example/minibox/printer"
+	"github.com/example/minibox/rfid"
+	"github.com/example/minibox/utils"
 )
 
 func NewFaceCacheSet() map[string]*faceCache {

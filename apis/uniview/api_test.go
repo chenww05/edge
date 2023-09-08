@@ -11,14 +11,14 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/turingvideo/turing-common/log"
-	"github.com/turingvideo/turing-common/model"
+	"github.com/example/turing-common/log"
+	"github.com/example/turing-common/model"
 
-	"github.com/turingvideo/minibox/camera/base"
-	"github.com/turingvideo/minibox/camera/uniview"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/configs"
-	"github.com/turingvideo/minibox/mock"
+	"github.com/example/minibox/camera/base"
+	"github.com/example/minibox/camera/uniview"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/configs"
+	"github.com/example/minibox/mock"
 )
 
 func getMockUniviewApi(box *mock.MockBox, db *mock.MockDBClient) *UniviewAPI {

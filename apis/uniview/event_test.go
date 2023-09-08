@@ -6,9 +6,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	box2 "github.com/turingvideo/minibox/box"
-	"github.com/turingvideo/minibox/mock"
-	"github.com/turingvideo/minibox/utils"
+	box2 "github.com/example/minibox/box"
+	"github.com/example/minibox/mock"
+	"github.com/example/minibox/utils"
 )
 
 func TestUniviewAPI_uploadEventMediaToCloud(t *testing.T) {

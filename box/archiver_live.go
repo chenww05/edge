@@ -3,8 +3,8 @@ package box
 import (
 	"context"
 
-	"github.com/turingvideo/streamer"
-	"github.com/turingvideo/turing-common/model"
+	"github.com/example/streamer"
+	"github.com/example/turing-common/model"
 )
 
 func (a *ArchiveTaskRunner) processLiveTask(task *model.CloudStorageSetting) {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/turingvideo/minibox/cloud"
+	"github.com/example/minibox/cloud"
 )
 
 func Test_getHaloEventType(t *testing.T) {

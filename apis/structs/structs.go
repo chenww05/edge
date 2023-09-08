@@ -3,7 +3,7 @@ package structs
 import (
 	"github.com/rs/zerolog"
 
-	"github.com/turingvideo/minibox/camera/thermal_1"
+	"github.com/example/minibox/camera/thermal_1"
 )
 
 type QrCode struct {

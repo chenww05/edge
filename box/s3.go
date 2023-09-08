@@ -18,8 +18,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/utils"
 )
 
 func (b *baseBox) newUploadRequest(url, field, filename string, params map[string]string) (*http.Request, error) {

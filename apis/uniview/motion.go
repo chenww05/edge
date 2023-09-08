@@ -14,11 +14,11 @@ import (
 	"time"
 
 	"github.com/rs/zerolog"
-	"github.com/turingvideo/turing-common/log"
+	"github.com/example/turing-common/log"
 
-	"github.com/turingvideo/minibox/camera/uniview"
-	"github.com/turingvideo/minibox/cloud"
-	"github.com/turingvideo/minibox/utils"
+	"github.com/example/minibox/camera/uniview"
+	"github.com/example/minibox/cloud"
+	"github.com/example/minibox/utils"
 )
 
 const (
